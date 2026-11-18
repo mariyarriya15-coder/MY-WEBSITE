@@ -1,0 +1,108 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #ffb8d1;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #ffb8d1;
+}
+
+
+.navigation ul{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  padding: 30px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: #7a2b4d;
+  font-size: 34px; 
+  font-weight: bold;
+}
+
+
+.top{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.maria-photo{
+  width: 220px; 
+  border-radius: 20px;
+}
+
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  min-height: 500px;
+}
+
+.name{
+  font-size: 85px; 
+  color: white;
+  line-height: 1;
+}
+
+.title{
+  font-size: 110px; 
+  color: #c2185b;
+  line-height: 1;
+}
+
+.cute-photo{
+  width: 480px; 
+  border-radius: 20px;
+}
+
+
+.about{
+  padding: 50px 60px;
+}
+
+.about h1{
+  font-size: 50px;
+}
+
+.about p{
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.navigation a{
+  transition: all 0.3s ease;
+}
+
+
+.navigation a:hover{
+  font-size: 42px;
+  color: white;
+  transform: scale(1.2);
+}
+
